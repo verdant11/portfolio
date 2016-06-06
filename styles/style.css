@@ -1,0 +1,119 @@
+body {
+  background-color: #E8E8E8;
+}
+
+/*
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #00ffb7;
+  padding: 20px;
+}
+
+Alternative graphic header done with css class instead of using header element.
+
+.boxed {
+  text-align: center;
+  border: 3px solid black ;
+  background-color: #B0B0B0 ;
+  width: 100%
+  height: 25%  
+  margin: 5em
+  padding: 25 em
+}
+ 
+*/
+h1 {
+  font: 400 100px/1.2 'Merienda One',Helvetica,sans-serif;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Trebuchet MS",Helvetica,sans-serif;
+  font-size: 4em;
+}
+
+h3 {
+  font-family: "Trebuchet MS",Helvetica,sans-serif;
+}
+
+.nav {
+  margin-top: 15px;
+  font-family: "Trebuchet MS",Helvetica,sans-serif;
+  font-size: 4em;
+  background-color: #fff8dc;
+}
+
+p {
+  font-family: Verdana,Geneva,sans-serif;
+}
+
+a {
+  color: #5079FF;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  border: 1px solid blue;
+  border-right: none;
+  border-left: none;
+}
+
+img {
+  padding: 1px;
+  border: 1px solid #021a40;
+  background-color: #ff0;
+}
+
+figcaption {
+  text-decoration-color: #2f4f4f;
+  text-align: left;
+  font-family: cursive;
+}
+
+
+fa-ul {
+  }
+
+fa-li {
+  margin-top: 10px;
+  font-family: Verdana,Geneva,sans-serif;
+}
+
+fa-li:first-child {
+  margin-top: 0;
+}
+
+q {
+  quotes: "«" "»" "‹" "›";
+  font-family: cursive;
+  margin-left: 2em;
+  font-weight: 800;
+}
+
+.quotedperson {
+  margin-left: 2em;
+  font-weight: 200;
+  text-align: left;
+}
+
+.whitetext {
+  font-family: monospace;
+  font: 25em;
+  text-align: center;
+  color: #faebd7;
+}
+
+footer {
+  background-color: #333;
+  width: 100%;
+  bottom: 0;
+  position:relative;
+  line-height: 3.5em;
+  text-align: center;
+}
+
